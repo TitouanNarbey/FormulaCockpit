@@ -1,5 +1,41 @@
 <RCC>
     <qresource prefix="/">
         <file>main.qml</file>
+        <file>PilotRank.qml</file>
+        <file>ModelPilotOrder.qml</file>
+        <file>CarInformation.qml</file>
+    </qresource>
+    <qresource prefix="/circuits/maps">
+        <file alias="Circuit_de_Monaco">assets/Circuits/Maps/Circuit_de_Monaco.png</file>
+    </qresource>
+    <qresource prefix="/flags">
+        <file alias="monaco">assets/Flags/monaco.png</file>
+    </qresource>
+    <qresource prefix="/pilots">
+        <file alias="bottas">assets/Pilots/bottas.jpg</file>
+        <file alias="raikkonen">assets/Pilots/raikkonen.jpg</file>
+        <file alias="mini_raikkonen">assets/Pilots/mini_raikkonen.png</file>
+        <file alias="mini_bottas">assets/Pilots/mini_bottas.png</file>
+    </qresource>
+    <qresource prefix="/pilots/numbers">
+        <file alias="7">assets/Pilots/7_raikkonen.png</file>
+        <file alias="77">assets/Pilots/77_bottas.png</file>
+    </qresource>
+    <qresource prefix="/cars">
+        <file alias="mercedes">assets/Cars/car_mercedes.png</file>
+    </qresource>
+    <qresource prefix="/logos">
+        <file alias="full_mercedes">assets/Logos/full_logo_mercedes.svg.png</file>
+    </qresource>
+    <qresource prefix="/tyres">
+        <file alias="tyre-blue">assets/Tyres/tyre-blue.png</file>
+        <file alias="tyre-green">assets/Tyres/tyre-green.png</file>
+        <file alias="tyre-red">assets/Tyres/tyre-red.png</file>
+        <file alias="tyre-white">assets/Tyres/tyre-white.png</file>
+        <file alias="tyre-yellow">assets/Tyres/tyre-yellow.png</file>
+    </qresource>
+    <qresource prefix="/pilots/flags">
+        <file alias="finland">assets/Pilots/Flags/Finland.jpg</file>
+        <file alias="monaco">assets/Pilots/Flags/Monaco.jpg</file>
     </qresource>
 </RCC>

@@ -14,7 +14,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        main.cpp
+        main.cpp \
+        src/Circuit.cpp \
+        src/Models/PilotOrderListModel.cpp \
+        src/PilotOrderList.cpp
 
 RESOURCES += qml.qrc
 
@@ -31,3 +34,12 @@ QML_DESIGNER_IMPORT_PATH =
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+DISTFILES += \
+	assets/Circuits/Maps/Circuit_de_Monaco.png
+
+HEADERS += \
+	src/Circuits/Circuit_de_Monaco.h \
+	src/Circuit.h \
+	src/Models/PilotOrderListModel.h \
+	src/PilotOrderList.h
